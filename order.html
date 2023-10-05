@@ -22,11 +22,102 @@
       <article>
         <h1>Order</h1>
         <form action="http://localhost:5500/api/post" method="POST">
-          <div clas="input-group">
+          <div class="input-group">
             <div>
               <label for="first-name">First name</label>
             </div>
-            <div><input type="text" name="first-name" id="first-name" /></div>
+            <div>
+              <input type="text" name="first-name" id="first-name" />
+            </div>
+          </div>
+          <div class="input-group">
+            <div>
+              <label for="last-name">Last name</label>
+            </div>
+            <div>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+          </div>
+          <div class="input-group">
+            <div>
+              <label for="address">Address</label>
+            </div>
+            <div>
+              <input type="text" name="address" id="address" />
+            </div>
+          </div>
+          <div class="input-group">
+            <div>
+              <label for="county">County</label>
+            </div>
+            <div>
+              <select name="state" id="state">
+                <option value="" selected>[ Select one ]</option>
+                <option value="Surrey">Avon</option>
+                <option value="Surrey">Bedfordshire</option>
+                <option value="Surrey">Berkshire</option>
+                <option value="Surrey">Buckinghamshire</option>
+                <option value="Surrey">Cambridgeshire</option>
+                <option value="Surrey">Cheshire</option>
+                <option value="Surrey">Cornwall</option>
+                <option value="Surrey">Cumbria</option>
+                <option value="Surrey">Derbyshire</option>
+                <option value="Surrey">Devon</option>
+                <option value="Surrey">Dorset</option>
+                <option value="Surrey">Durham</option>
+                <option value="Surrey">Essex</option>
+                <option value="Surrey">Gloucestershire</option>
+                <option value="Surrey">Greater London</option>
+                <option value="Surrey">Hampshire</option>
+                <option value="Surrey">Herefordshire</option>
+                <option value="Surrey">Hertfordshire</option>
+                <option value="Surrey">Isle of Wight</option>
+                <option value="Surrey">Kent</option>
+                <option value="Surrey">Lancashire</option>
+                <option value="Surrey">Leicestershire</option>
+                <option value="Surrey">Lincolnshire</option>
+                <option value="Surrey">Merseyside</option>
+                <option value="Surrey">Norfolk</option>
+                <option value="Surrey">Northamptonshire</option>
+                <option value="Surrey">Northumberland</option>
+                <option value="Surrey">Nottinghamshire</option>
+                <option value="Surrey">Oxfordshire</option>
+                <option value="Surrey">Rutland</option>
+                <option value="Surrey">Schools</option>
+                <option value="Surrey">Shropshire</option>
+                <option value="Surrey">Somerset</option>
+                <option value="Surrey">Staffordshire</option>
+                <option value="Surrey">Suffolk</option>
+                <option value="Surrey">Surrey</option>
+                <option value="Surrey">Sussex</option>
+                <option value="Surrey">Tyne and Wear</option>
+                <option value="Surrey">Warwickshire</option>
+                <option value="Surrey">West Midlands</option>
+                <option value="Surrey">Warwickshire</option>
+                <option value="Surrey">Wiltshire</option>
+                <option value="Surrey">Worcestershire</option>
+                <option value="Surrey">Yorkshire</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-group">
+            <div>
+              <label for="postcode">Postcode</label>
+            </div>
+            <div>
+              <input type="text" name="postcode" id="postcode" />
+            </div>
+          </div>
+          <div class="input-group">
+            <div><label for="comments">Comments</label></div>
+            <div>
+              <textarea
+                name="comments"
+                id="comments"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
           </div>
         </form>
       </article>
