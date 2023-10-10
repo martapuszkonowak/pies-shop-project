@@ -18,7 +18,9 @@
       </nav>
     </header>
     <main>
-      <aside><img src="images/logo.png" alt="Bethany's Pie Shop" /></aside>
+      <aside>
+        <a href="/"><img src="images/logo.png" alt="Bethany's Pie Shop" /></a>
+      </aside>
       <article>
         <section class="columns-desktop">
           <div class="pie">
@@ -68,7 +70,7 @@
             id: button.getAttribute("data-order"),
             title: container.querySelector(".title").innerText,
             price: container.querySelector(".price").innerText,
-            desc: container.querySelector(".desc").innetText,
+            desc: container.querySelector(".desc").innerText,
           };
 
           localStorage.setItem("order", JSON.stringify(order));
